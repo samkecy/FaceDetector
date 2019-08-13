@@ -5,23 +5,28 @@
     build-mode="COLD"
     density="xhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.4.1"
-    timestamp="1565715070460"
+    timestamp="1565716561550"
     token="3451919065838693032"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1449" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="138" />
     <task
         name="verifier"
-        duration="0" />
+        duration="75" />
+
+    <artifact
+        location="C:\Users\SAMKECY\AndroidStudioProjects\FaceDetector\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
@@ -79,15 +84,11 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1565714991551"
+        timestamp="1565716561550"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\SAMKECY\AndroidStudioProjects\FaceDetector\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1565715070460"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
